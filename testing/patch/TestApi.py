@@ -1,7 +1,8 @@
 import unittest
 from unittest import mock, TestCase
 
-from patch import facebook, google
+from testing.patch import google, facebook
+
 
 class TestApi(TestCase):
 

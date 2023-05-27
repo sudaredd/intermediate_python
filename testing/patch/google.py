@@ -1,4 +1,4 @@
-from patch.data import get_data, get_data1
+from testing.patch.data import get_data, get_data1
 
 def call_googl_api():
     data = get_data()
